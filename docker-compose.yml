@@ -19,7 +19,7 @@ services:
       MYSQL_PASSWORD: password123
       MYSQL_DATABASE: packages
     external_links:
-      - redis-session
+      # - redis-session
       - packages-db
     network_mode: bridge
 
